@@ -1,4 +1,4 @@
-package main
+package lesson2
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 
 // 変数宣言について
 
-func main() {
+func lesson2() {
 	// var i int = 1
 	// var f64 float64 = 1.2
 	// var s string = "test"

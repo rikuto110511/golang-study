@@ -1,4 +1,4 @@
-package main
+package lesson7
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 
 // 型変換について
 
-func main() {
+func lesson7() {
 	var x int = 1
 	xx := float64(x)
 	fmt.Printf("%T %v %f\n", xx, xx, xx)
@@ -18,6 +18,10 @@ func main() {
 
 	var s string = "14"
 	// z = int(s)
+	// i, _ := strconv.Atoi(s)
 	i, _ := strconv.Atoi(s)
-	fmt.Printf("%T %v", i, i)
+	fmt.Printf("%T %v\n", i, i)
+
+	h := "Hello World"
+	fmt.Println(string(h[0]))
 }

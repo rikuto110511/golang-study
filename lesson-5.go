@@ -1,4 +1,4 @@
-package main
+package lesson5
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 
 // 文字列型について
 
-func main() {
+func lesson5() {
 	fmt.Println("Hello world!!")
 	fmt.Println("Hello " + "world!!")
 	fmt.Println(string("Hello world!!"[0]))

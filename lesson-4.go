@@ -1,4 +1,4 @@
-package main
+package lesson4
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 
 // 数値型について
 
-func main() {
+func lesson4() {
 	// var (
 	// 	u8  uint8     = 255
 	// 	i8  int8      = 127

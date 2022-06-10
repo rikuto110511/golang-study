@@ -1,4 +1,4 @@
-package main
+package lesson3
 
 import (
 	"fmt"
@@ -16,7 +16,7 @@ const (
 	Password = "test_pass"
 )
 
-func main() {
+func lesson3() {
 	fmt.Println(Pi, Username, Password)
 
 }

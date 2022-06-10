@@ -1,4 +1,4 @@
-package main
+package lesson1
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ func bazz() {
 	fmt.Println("Bazz")
 }
 
-func main() {
+func lesson1() {
 	// bazz()
 	fmt.Println("hello world!", time.Now())
 	fmt.Println(user.Current())

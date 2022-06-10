@@ -1,4 +1,4 @@
-package main
+package lesson6
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 
 // 論理値型について
 
-func main() {
+func lesson6() {
 	t, f := true, false
 	fmt.Printf("%T %v %t\n", t, 1, t)
 	fmt.Printf("%T %v %t\n", f, 0, f)
